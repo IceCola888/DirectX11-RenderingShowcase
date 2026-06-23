@@ -1,0 +1,43 @@
+# Visual Studio
+.vs/
+**/.vs/
+*.suo
+*.user
+*.vcxproj.user
+*.userosscache
+*.sln.docstates
+
+# Build outputs
+Debug/
+Release/
+x64/
+x86/
+**/Debug/
+**/Release/
+**/x64/
+**/x86/
+
+# CMake / generated folders
+build/
+**/build/
+*.dir/
+**/*.dir/
+
+# C++ intermediate files
+*.obj
+*.ilk
+*.pdb
+*.idb
+*.ipch
+*.iobj
+*.ipdb
+*.pch
+*.tlog
+*.log
+
+# Executables
+*.exe
+
+# OS files
+.DS_Store
+Thumbs.db

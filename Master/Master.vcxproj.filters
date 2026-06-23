@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{dcd8bb77-5b8d-49d4-a5c3-a972eeeb9653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\IBL">
+      <UniqueIdentifier>{cebd07b0-0627-44d3-b5a7-d60090c7b400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Deferred">
+      <UniqueIdentifier>{1b3143f1-bd56-4d75-b20d-954c1cb3bd2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Shadow">
+      <UniqueIdentifier>{74b4131b-c4f4-44cb-ba36-103d43a61002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\SSAO">
+      <UniqueIdentifier>{aecaefae-237a-4c51-8449-bf4336a9e1cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\PBR">
+      <UniqueIdentifier>{d92caf9f-f2f3-4270-a941-637b1f3189a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{74cf5ba9-6322-4479-971f-40fe610c4c7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{a025ca94-1914-4d48-9f24-b99c351f12ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Effect">
+      <UniqueIdentifier>{f0c9faf8-c5ad-4554-95a0-7fc9f0ad2632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\PostProcess">
+      <UniqueIdentifier>{06dd8033-537f-450c-b06e-aa56c770fd0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="CascadedShadowManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IBLManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAOManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DeferredEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="IBLEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyboxEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="SSAOEffect.cpp">
+      <Filter>Effect</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shaders\IrradianceMap.hlsl">
+      <Filter>Shaders\IBL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\IBLConstants.hlsl">
+      <Filter>Shaders\IBL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\HDRtoCubeMap.hlsl">
+      <Filter>Shaders\IBL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\PrefilterEnv.hlsl">
+      <Filter>Shaders\IBL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\BRDF_LUT.hlsl">
+      <Filter>Shaders\IBL</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\PBRLighting.hlsl">
+      <Filter>Shaders\PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\PBRConstants.hlsl">
+      <Filter>Shaders\PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\ComputeShaderTile.hlsl">
+      <Filter>Shaders\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\GBuffer.hlsl">
+      <Filter>Shaders\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Rendering.hlsl">
+      <Filter>Shaders\Deferred</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\CascadedShadow.hlsl">
+      <Filter>Shaders\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Shadow.hlsl">
+      <Filter>Shaders\Shadow</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\SSAO.hlsl">
+      <Filter>Shaders\SSAO</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderDefines.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CascadedShadowManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IBLManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SSAOManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Effects.h">
+      <Filter>Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\FrameBufferFlat.hlsl">
+      <Filter>Shaders\PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\Constants.hlsl">
+      <Filter>Shaders\PBR</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\FullScreenTriangle.hlsl">
+      <Filter>Shaders\PostProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders\SkyboxToneMap.hlsl">
+      <Filter>Shaders\PostProcess</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

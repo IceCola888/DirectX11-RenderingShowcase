@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DirectX11">
+      <UniqueIdentifier>{fc4f23cb-b162-4e9e-bc08-e9c2ea2c3673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Textures">
+      <UniqueIdentifier>{7c9e9d66-98e4-4aa5-a112-c015aa8eb192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Debug">
+      <UniqueIdentifier>{d3443aba-2426-484c-b995-7f6e90c6c318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Buffer">
+      <UniqueIdentifier>{5ad4476c-cbe8-4f7a-aada-7ad80b35b318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\RenderStates">
+      <UniqueIdentifier>{b8a6982b-b13a-4a14-b8cf-511bd4b8f36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Material">
+      <UniqueIdentifier>{69bfe6d3-59d8-46d9-8212-1d6dfaf71720}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Effect">
+      <UniqueIdentifier>{ac68b3bf-9cfc-4896-a6b3-a0ef2c1f114a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Vertices">
+      <UniqueIdentifier>{deeed2d9-32c5-4918-8f76-416820482335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Mesh">
+      <UniqueIdentifier>{71fdac4c-2786-43d3-8a4f-395874abc292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Utils">
+      <UniqueIdentifier>{24813fb6-4b48-425f-9030-70d874491a5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Timer">
+      <UniqueIdentifier>{1f1fd585-db87-425a-bd90-609caa30db10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DirectX11\Camera">
+      <UniqueIdentifier>{e68c84f7-5d04-4356-a7a8-c0b176145d81}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GpuTimer.h">
+      <Filter>DirectX11\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="CpuTimer.h">
+      <Filter>DirectX11\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraController.h">
+      <Filter>DirectX11\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>DirectX11\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader11.h">
+      <Filter>DirectX11\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>DirectX11\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="stb_image.h">
+      <Filter>DirectX11\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader11.h">
+      <Filter>DirectX11\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture2D.h">
+      <Filter>DirectX11\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTrace.h">
+      <Filter>DirectX11\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLayer.h">
+      <Filter>DirectX11\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>DirectX11\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderStates.h">
+      <Filter>DirectX11\RenderStates</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>DirectX11\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectHelper.h">
+      <Filter>DirectX11\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="IEffect.h">
+      <Filter>DirectX11\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex.h">
+      <Filter>DirectX11\Vertices</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DFormat.h">
+      <Filter>DirectX11\Vertices</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometry.h">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DApp.h">
+      <Filter>DirectX11\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGuiLog.h">
+      <Filter>DirectX11\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshData.h">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGrab11.h">
+      <Filter>DirectX11\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Property.h">
+      <Filter>DirectX11\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="WinMin.h">
+      <Filter>DirectX11\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>DirectX11\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="LightHelper.h">
+      <Filter>DirectX11\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="XUtil.h">
+      <Filter>DirectX11\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GpuTimer.cpp">
+      <Filter>DirectX11\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="CpuTimer.cpp">
+      <Filter>DirectX11\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>DirectX11\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraController.cpp">
+      <Filter>DirectX11\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader11.cpp">
+      <Filter>DirectX11\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>DirectX11\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader11.cpp">
+      <Filter>DirectX11\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture2D.cpp">
+      <Filter>DirectX11\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTrace.cpp">
+      <Filter>DirectX11\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugLayer.cpp">
+      <Filter>DirectX11\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>DirectX11\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderStates.cpp">
+      <Filter>DirectX11\RenderStates</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectHelper.cpp">
+      <Filter>DirectX11\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Collision.cpp">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometry.cpp">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DApp.cpp">
+      <Filter>DirectX11\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGuiLog.cpp">
+      <Filter>DirectX11\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGrab11.cpp">
+      <Filter>DirectX11\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>DirectX11\Mesh</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
