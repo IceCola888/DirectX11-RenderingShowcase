@@ -9,10 +9,11 @@
 ## ビルド方法
 
 1. `Common/Common.sln` を Visual Studio で開きます。
-2. 実行したいプロジェクトを右クリックします。
-3. `スタートアップ プロジェクトに設定` を選択します。
-4. `Release x64` を選択してビルドします。
-5. 実行して動作を確認します。
+2. `Release x64`を選択します。
+3. `Master`を右クリックします。
+4. `スタートアップ プロジェクトに設定` を選択します。
+5. `Release x64` を選択してビルドします。
+6. 実行して動作を確認します。
 
 ## 実行方法
 
@@ -36,3 +37,25 @@ Master/
 
 - `MSAA_Visualize` の描画は、`PointLight` の範囲内で表示されます。
 - `Visualize Cascades` を選択する際は、`PointLight` の数を `1` に設定してください。
+- `Directional Light`の`Euler Angles`のxを85 前後に設定すると見やすくなります。
+## Demo
+
+YouTube :  
+[YouTube確認動画①](https://youtu.be/LhdRvvuLwb8?si=BJkPgEdHynYMl13D)　　　　
+　
+
+[YouTube確認動画②](https://youtu.be/5kdIer1NAag?si=fEFvOVRg8Fs6REFr)
+
+## Screenshots
+
+![Preview 01](ScreenShots/4xMSAA_4096PointLightsTBDR_SSAO_0.png)
+
+![Preview 02](ScreenShots/8xMSAA_Visualize.png)
+
+![Preview 03](ScreenShots/4096PointLights_Visualize1.png)
+
+![Preview 04](ScreenShots/CSM_Cascades_Visualize0.png)
+
+![Preview 04](ScreenShots/CSM_Cascades_Visualize2.png)
+
+![Preview 04](ScreenShots/IBL_ToneMapping1.png)
