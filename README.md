@@ -3,14 +3,20 @@ Tile-Based Deferred Rendering、Cascaded Shadow Mapping、SSAO、PBRなど、リ
 
 本プロジェクトでは、単体のサンプル実装ではなく、複数のレンダリング技術を同じシーン内で組み合わせ、描画パイプライン、GPU リソース管理、シェーダー処理、ライティング、シャドウ、ポストエフェクトの流れを確認できる構成を目指しました。
 
+![Preview 01](ScreenShots/4096PointLightsTBDR_8xMSAA_SSAO_CSM_DebugSource.png)
+![Preview 01](ScreenShots/4096PointLightsTBDR_8xMSAA_SSAO_CSM.png)
+![Preview 01](ScreenShots/4096PointLightsTBDR_8xMSAA_SSAO_CSM_VisEdge.png)
+![Preview 01](ScreenShots/4096PointLightsTBDR_8xMSAA_SSAO_CSMDebug.png)
+![Preview 01](ScreenShots/4096PointLightsTBDR_8xMSAA_SSAO_CSM_DebugLights.png)
+
 ## 主な特徴
-- Tile-Based Deferred Rendering with MSAA
-- Cascaded Shadow Mapping
+- Tile-Based Deferred Rendering with 8xMSAA 4096 point lights
+- Cascaded Shadow Mapping 
 - Variance Shadow Map / Exponential Shadow Map / Exponential Variance Shadow Map
 - Screen Space Ambient Occlusion
 - Physically Based Rendering
 - MSAA、GBuffer、Lighting Visualization
-- Debug Visualizatio
+- Debug Visualization
 - Image Based Lighting (implemented as a separate demo scene)
 
 ## 各手法で得たこと
